@@ -39,3 +39,6 @@ Using npm:
 
     app.use("/", router._);
 
+## __License__
+
+MIT
