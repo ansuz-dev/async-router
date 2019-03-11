@@ -4,14 +4,14 @@
 
 Using npm:
 
-    npm install --save @ansuz/async-router
+    npm install --save @ansuz-dev/async-router
 
 ## __Usage__
 
     const express = require("express");
     const app = express();
 
-    const { Router } = require("@ansuz/async-router");
+    const { Router } = require("@ansuz-dev/async-router");
     const router = new Router();
 
     // middleware
