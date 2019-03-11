@@ -1,0 +1,26 @@
+{
+  "name": "@ansuz/async-router",
+  "version": "0.0.1",
+  "description": "Asynchronous version of Express Router",
+  "keywords": [ "async", "express", "router", "route" ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Ansuz Development <ansuzdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ansuz-dev/async-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ansuz-dev/async-router.git/issues",
+    "email": "ansuzdev@gmail.com"
+  },
+  "engines": {
+    "node":">=8.2.1"
+  }
+}
