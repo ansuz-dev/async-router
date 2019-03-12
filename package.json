@@ -2,10 +2,15 @@
   "name": "@ansuz-dev/async-router",
   "version": "0.0.2",
   "description": "Asynchronous version of Express Router",
-  "keywords": [ "async", "express", "router", "route" ],
+  "keywords": [
+    "async",
+    "express",
+    "router",
+    "route"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "mocha"
   },
   "author": "Ansuz Development <ansuzdev@gmail.com>",
   "license": "MIT",
@@ -13,17 +18,23 @@
     "express": "^4.16.4"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ansuz-dev/async-router.git"
+    "type": "git",
+    "url": "https://github.com/ansuz-dev/async-router.git"
   },
   "bugs": {
     "url": "https://github.com/ansuz-dev/async-router.git/issues",
     "email": "ansuzdev@gmail.com"
   },
   "engines": {
-    "node":">=8.2.1"
+    "node": ">=8.2.1"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
   }
 }

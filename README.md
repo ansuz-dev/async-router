@@ -8,6 +8,8 @@ Using npm:
 
 ## __Usage__
 
+### Async router
+
     const express = require("express");
     const app = express();
 
@@ -38,6 +40,24 @@ Using npm:
     });
 
     app.use("/", router._);
+
+### Access Express router
+
+You could access Express router object to implement the traditional callback.
+
+    router._.get("/express", (req, res, next) => {
+      res.json({ message: "express router" });
+    });
+
+### API
+
+Async router supports all methods of [Express router](https://expressjs.com/en/api.html#router):
+
+    router.all()
+    router.param()
+    router.route()
+    router.use()
+    router.MEDTHOD()
 
 ## __License__
 
